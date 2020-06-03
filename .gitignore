@@ -1,0 +1,3 @@
+/html/?*
+# git doesn't seem to track an empty directory...
+!/html/empty
