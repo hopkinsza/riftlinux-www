@@ -1,11 +1,12 @@
 body {
 	font-family: Ubuntu, sans-serif;
-	background-color: #ddd;
+	background-color: #181818;
+	color: #eee;
 	line-height: 1.6;
 	margin: 0;
 }
 code {
-	color: #333;
+	color: #ccc;
 	font-family: DejaVu mono, Ubuntu mono, monospace;
 }
 
@@ -16,7 +17,7 @@ code {
 	width: 100%;
 }
 #navbar * {
-	color: #ccc;
+	color: #eee;
 
 	list-style-type: none;
 	margin: 0;
@@ -33,7 +34,7 @@ code {
 	text-decoration: none;
 }
 #navbar a:hover {
-	background-color: black;
+	background-color: #042;
 }
 #navbar a.cur {
 	font-weight: bold;
@@ -44,11 +45,8 @@ code {
 }
 
 /* green: 0a0; 080 */
-a		{ text-decoration: none; }
-a:link		{ color: #c0c; }
-a:visited	{ color: #a0a; }
-a:hover		{ color: #c0c; text-decoration: underline; }
-a.netbsd	{ text-decoration: none; }
-a.netbsd:link	{ color: #f26720; }
-a.netbsd:visited { color: #800; }
-a.netbsd:hover	{ color: #f26720; text-decoration: underline; }
+a		{ color: #173; text-decoration: none; }
+a:visited	{ color: #162; }
+a:hover		{ color: #173; text-decoration: underline; }
+a.netbsd	{ color: #c40; text-decoration: none; }
+a.netbsd:hover	{ text-decoration: underline; }
