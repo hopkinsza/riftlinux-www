@@ -1,7 +1,6 @@
 <p><em>
 Powered by
-<a href="http://netbsd.org/" class=netbsd>NetBSD</a>
-and nginx.
+<a href="http://netbsd.org/" class=netbsd>NetBSD</a>.
 </em></p>
 <a href="http://netbsd.org/">
 	<img src="https://netbsd.org/images/powered-by-NetBSD.png"/>
