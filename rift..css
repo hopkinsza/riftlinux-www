@@ -1,6 +1,14 @@
+:root {
+	prm:    #035;
+
+	sec:    #240;
+	sec-l:  #351;
+	sec-ll: #462;
+}
+
 body {
 	font-family: Ubuntu, sans-serif;
-	background-color: #222;
+	background-color: #181818;
 	color: #eee;
 	line-height: 1.6;
 	margin: 0;
@@ -11,7 +19,7 @@ code {
 }
 
 #navbar {
-	background-color: #025;
+	background-color: #035;
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -34,7 +42,7 @@ code {
 	text-decoration: none;
 }
 #navbar a:hover {
-	background-color: #042;
+	background-color: #240;
 }
 #navbar a.cur {
 	font-weight: bold;
@@ -44,9 +52,8 @@ code {
 	margin: 2em;
 }
 
-/* green: 0a0; 080 */
-a		{ color: #173; text-decoration: none; }
-a:visited	{ color: #162; }
-a:hover		{ color: #173; text-decoration: underline; }
+a		{ color: #462; text-decoration: none; }
+a:visited	{ color: #351; }
+a:hover		{ color: #462; text-decoration: underline; }
 a.netbsd	{ color: #c40; text-decoration: none; }
 a.netbsd:hover	{ text-decoration: underline; }
